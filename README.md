@@ -1,3 +1,23 @@
-# personal-finance
+# Welcome to your personal-finance project
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/srinathpasupathi057/personal-finance)
+## Project info
+
+**URL**: [https://personal-finance.onslate.com](https://personal-finance.onslate.com)
+
+## What technologies are used for this project?
+
+This project is built with .
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## What catalyst components are used for this project?
+
+This project is built with .
+
+- Slate
+- Datastore
+- Appsail
