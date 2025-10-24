@@ -1,14 +1,16 @@
 export interface Transaction {
-  id: string;
-  date: string;
-  amount: number;
-  category: string;
-  description: string;
-  type: 'income' | 'expense';
+  userId: null;
+  ROWID: string;
+  transactionDate: string;
+  Amount: number;
+  Category: string;
+  Description: string;
+  Type: string;
 }
 
 export interface BudgetCategory {
-  id: string;
+  userId: null;
+  ROWID: string;
   name: string;
   budgeted: number;
   spent: number;
@@ -16,7 +18,8 @@ export interface BudgetCategory {
 }
 
 export interface SavingsGoal {
-  id: string;
+  userId: null;
+  ROWID: string;
   name: string;
   targetAmount: number;
   currentAmount: number;
@@ -25,7 +28,7 @@ export interface SavingsGoal {
 }
 
 export interface MonthlyOverview {
-  month: string;
+  Financial_month : string;
   income: number;
   expenses: number;
   savings: number;
