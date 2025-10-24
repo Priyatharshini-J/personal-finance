@@ -1,4 +1,4 @@
-# Welcome to your personal-finance project
+# Welcome to your personal-finance backend project
 
 ## Project info
 
